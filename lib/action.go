@@ -23,6 +23,10 @@ func init() {
 		pagers.ParentCursorDown()
 	}
 
+	actions["parent-reload"] = func() {
+		pagers.ParentReload()
+	}
+
 	actions["cursor-first-line"] = func() {
 		pagers.Last().CursorFirstLine()
 	}
