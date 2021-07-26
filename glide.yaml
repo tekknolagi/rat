@@ -1,4 +1,4 @@
-package: github.com/ericfreese/rat
+package: github.com/tekknolagi/rat
 import:
 - package: github.com/MathieuTurcotte/go-trie
   subpackages:

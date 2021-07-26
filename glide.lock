@@ -1,5 +1,5 @@
-hash: c8db8a2398ca985665895c59f91caaf8fa772e5bcdd7495bc01307859efbd7a4
-updated: 2017-10-18T20:59:44.017125378+02:00
+hash: 53313ecc2de4649299dc9437686af1333306b67528a243cfd7cbed4608f49281
+updated: 2021-07-26T14:12:08.936211426-07:00
 imports:
 - name: github.com/ericfreese/escseq
   version: 86cde6b4489748309d9254edf5918d7202021647
@@ -8,9 +8,11 @@ imports:
   subpackages:
   - gtrie
 - name: github.com/mattn/go-runewidth
-  version: 14207d285c6c197daabb5c9793d63e7af9ab2d50
+  version: 1ccc74d8c4a67ff0cbcaa5d233708c0f0fba362f
 - name: github.com/nsf/termbox-go
-  version: abe82ce5fb7a42fbd6784a5ceb71aff977e09ed8
+  version: 8f994c032445f01d32d27544f62d4dfeaecfd52b
+- name: github.com/rivo/uniseg
+  version: 5ca5bd4a07dfe7936e955332ebd6351ea8d58693
 - name: github.com/spf13/pflag
-  version: 1f33b80956cde38911d1f23d764deb8d77a649ce
+  version: d5e0c0615acee7028e1e2740a11102313be88de1
 testImports: []

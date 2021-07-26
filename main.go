@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	rat "github.com/ericfreese/rat/lib"
+	rat "github.com/tekknolagi/rat/lib"
 	flag "github.com/spf13/pflag"
 )
 
