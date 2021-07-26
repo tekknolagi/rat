@@ -215,6 +215,7 @@ func (ps *pagerStack) ParentCursorDown() {
 		ps.parentPager().CursorDown()
 		ps.parentPager().HandleEvent(KeySequenceFromString(ps.lastEl.creatingKeys))
 	}
+}
 
 func (ps *pagerStack) ParentReload() {
 	if len(ps.lastEl.creatingKeys) > 0 && ps.size > 1 && ps.numToShow > 1 {
